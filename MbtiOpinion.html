@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+
+<head>
+  <title>MbtiWebsite</title>
+</head>
+<link rel="stylesheet" href="MbtiStyle.css">
+<style>
+  li {
+    text-align: left;
+    list-style: none;
+    margin: 10px;
+  }
+
+  p {
+    text-align: left;
+    line-height: 50px;
+  }
+
+  input {
+    width: 350px;
+    height: 20px;
+  }
+</style>
+
+<body>
+  <h1>MBTI</h1>
+  <hr color='black'>
+  <ul div class="vline">
+    <br>
+    <li><a href="MbtiWhat.html">MBTI란?</a></li>
+    <!--시작화면-->
+    <li><a href="MbtiTest.html">MBTI 검사</a></li>
+    <!--검사-->
+    <li><a href="MbtiOpinion.html" class='active'>MBTI에 대한 의견</a></li>
+    <!--설문-->
+    <li><a href="Mbti.html">MBTI 유형</a></li>
+    <!--유형 정리-->
+
+    <div class="pdiv">
+
+      <h2>MBTI에 대한 당신의 의견을 알려주세요!</h2>
+      <p>내 실제 성격과 MBTI상 성격은
+        <!--비슷, 다르다--><br>
+
+        <button type="button" name="button" class='button'>비슷하다</button>
+        <button type="button" name="button" class='button'>다르다</button>
+        <br><br>
+        나는 MBTI에 대해 평소 관심이<br>
+        <button type="button" name="button" class='button'>있는 편이다</button>
+        <button type="button" name="button" class='button'>없는 편이다</button>
+        <br><br>
+        나는 MBTI가 신빙성이
+        <!--신빙성 있다 없다-->
+        <br>
+        <button type="button" name="button" class='button'>어느 정도 있다</button>
+        <button type="button" name="button" class='button'>아예 없다</button>
+        <br><br>
+        MBTI를 한 문장으로 표현해본다면?
+        <br>
+        <input type="text" name="opinion" value="">
+        <br><br>
+        <button type="submit" name="button" class='button'>제출하기</button>
+      </p>
+  </ul>
+</body>
+
+</html>

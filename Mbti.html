@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+
+<head>
+  <title>MbtiWebsite</title>
+</head>
+<link rel="stylesheet" href="MbtiStyle.css">
+<style>
+  li {
+    list-style: none;
+    margin: 10px;
+  }
+
+
+
+  p {
+    text-align: left;
+    line-height: normal;
+  }
+
+  table {
+    border-color: white;
+    position: relative;
+    right: 22%;
+    bottom: 20%
+  }
+
+  thead {
+    background-color: #bf8ef3;
+    color: white;
+  }
+
+  .left {
+    background-color: #bf8ef3;
+    color: white;
+
+  }
+
+  .first {
+    background-color: #BBEFF7;
+
+  }
+
+  .second {
+    background-color: #A1E0DF;
+
+  }
+
+  #collapse {
+    border-collapse: collapse;
+  }
+</style>
+
+<body>
+  <h1>MBTI</h1>
+  <hr color='black'>
+  <ul div class="vline">
+    <br>
+    <li><a href="MbtiWhat.html">MBTI란?</a></li>
+    <!--정의-->
+    <li><a href="MbtiTest.html">MBTI 검사</a></li>
+    <!--검사-->
+    <li><a href="MbtiOpinion.html">MBTI에 대한 의견</a></li>
+    <!--설문-->
+    <li><a href="Mbti.html" class='active'>MBTI 유형</a></li>
+    <!--유형 정리-->
+
+    <div class="pdiv">
+      <h2>나의 MBTI 유형을 찾아보자!</h2>
+      <p>
+      <table width="600" height="auto" border="1" align="center" style="table-layout:fixed" id="collapse">
+        <thead>
+          <tr>
+            <td colspan="2" rowspan="2">구분</td>
+
+            <td colspan="2">T</td>
+
+            <td colspan="2">F</td>
+
+          </tr>
+          <tr>
+            <td>J</td>
+            <td>P</td>
+            <td>J</td>
+            <td>P</td>
+          </tr>
+        <tbody>
+          <tr>
+            <td rowspan="2" class='left'>I</td>
+            <td class='left'>S</td>
+            <td class='first'>ISTJ</td>
+            <td class='first'>ISTP</td>
+            <td class='first'>ISFJ</td>
+            <td class='first'>ISFP</td>
+
+          </tr>
+          <tr>
+            <td class='left'>N</td>
+            <td class='second'>INTJ</td>
+            <td class='second'>INTP</td>
+            <td class='second'>INFJ</td>
+            <td class='second'>INFP</td>
+          </tr>
+          <tr>
+            <td rowspan="2" class='left'>E</td>
+            <td class='left'>S</td>
+            <td class='first'>ESTJ</td>
+            <td class='first'>ESTP</td>
+            <td class='first'>ESFJ</td>
+            <td class='first'>ESFP</td>
+          </tr>
+          <tr>
+            <td class='left'>N</td>
+            <td class='second'>ENTJ</td>
+            <td class='second'>ENTP</td>
+            <td class='second'>ENFJ</td>
+            <td class='second'>ENFP</td>
+          </tr>
+
+        </tbody>
+      </table>
+      </p>
+  </ul>
+</body>
+
+</html>
